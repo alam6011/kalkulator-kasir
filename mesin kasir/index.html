@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Kasir Fauzan Londry</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <div class="container">
+        <h1>Aplikasi Kasir Fauzan Londry</h1>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Jenis Cucian</th>
+                <th>Harga per Kilo</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Cuci Kering</td>
+                <td>6,000 RP</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Cuci Basah</td>
+                <td>4,000 RP</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Cuci Setrika</td>
+                <td>8,000 RP</td>
+            </tr>
+        </table>
+        <label for="menu">Pilih cucian:</label>
+        <select id="menu">
+            <option value="0">Cuci Kering</option>
+            <option value="1">Cuci Basah</option>
+            <option value="2">Cuci Setrika</option>
+        </select>
+        <label for="nama">Nama Pemesan:</label>
+        <input type="text" id="nama" placeholder="Masukkan nama pemesan">
+        <label for="alamat">Alamat Pemesan:</label>
+        <input type="text" id="alamat" placeholder="Masukkan alamat pemesan">
+        <label for="berat">Berapa kilo?</label>
+        <input type="number" id="berat" step="0.1">
+        <button id="hitung">Hitung</button>
+        <div id="hasil"></div>
+        <button id="selesai">Selesai</button>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

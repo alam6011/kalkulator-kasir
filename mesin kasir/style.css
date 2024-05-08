@@ -1,0 +1,41 @@
+    body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+p {
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    position: l;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label, select, input {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#hasil {
+    margin-top: 20px;
+    font-weight: bold;
+}
